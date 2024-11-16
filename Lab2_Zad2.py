@@ -2,6 +2,8 @@
 import multiprocessing
 
 import random
+from timeit import default_timer as timer
+import matplotlib.pyplot as plt
 
 def merge(left, right):
     if len(left) == 0:
@@ -60,12 +62,34 @@ def parallel_merge_sort(arr, num_processes=None):
 
 
 if __name__ == "__main__":
-    test_array = [random.randint(0, 1000) for _ in range(1000)]
+    arr_sizes = [500, 5000, 100000, 500000]
+    time_parallel = []
+    time_single = []
 
-    print("Input: ")
-    print(test_array)
+    for i in arr_sizes:
+        test_array = [random.randint(0, 999999) for _ in range(i)]
+        
+        start = timer()
+        output_array1 = parallel_merge_sort(test_array)
+        end = timer()
+        time_parallel.append(end-start)
 
-    output_array = parallel_merge_sort(test_array)
-    print("Output: ")
-    print(output_array)
+        start = timer()
+        output_array2 = merge_sort(test_array)
+        end = timer()
+        time_single.append(end-start)
+        
+    plt.plot(arr_sizes, time_parallel)
+    plt.plot(arr_sizes, time_single)
+    
+    plt.title("Time taken to sort")
+    plt.ylabel("Time [s]")
+    plt.xlabel("Number of elements")
+    plt.legend(["Parallel", "Single thread"])
+    plt.show()
+    
+    
+
+    
+
 
