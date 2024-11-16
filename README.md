@@ -10,7 +10,7 @@
 # Lab 2
 1.  <font color="#00b050">Stwórz klasę implementującą liczby zespolone oraz przeciąż dla niej operatory dodawania i odejmowania.</font>
 2.  <font color="#00b050">Napisz równoległą metodę sortowania z wykorzystaniem pakietu _multiprocessing_.</font>
-3.  <font color="#00b050">Uruchom testy metody z pktu 2 z różnymi rozmiarami danych wejściowych oraz różną liczbą procesów, następnie przedstaw zebrane wyniki w postaci graficznej z użyciem _matplotlib_.</font>
+3.  <font color="#00b050">Uruchom testy metody z pktu 2 z różnymi rozmiarami danych wejściowych oraz różną liczbą procesów, następnie przedstaw zebrane wyniki w postaci graficznej z użyciem _matplotlib_.</font> (Zadanie 3 w tym samym pliku co zadanie 2.)
 4.  Zaimplementuj własny iterator o nazwie fibonacci, zwracający kolejne liczby ciągu Fibonacciego. Funkcja __init__ powinna posiadać parametr o nazwie _steps_ określający liczbę wyrazów ciągu, po których funkcja  __next__  rzuca wyjątek _StopIteration_.
 
 
