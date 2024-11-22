@@ -5,7 +5,7 @@
 4.  <font color="#00b050">Napisz skrypt zmieniający w podanym ciągu wejściowym (można plik wygenerować samemu lub sciągnąć np. z portalu informacyjnego) wybrane słowa innymi slowami (podanymi w strukturze typu słownikowego) podanymi jako parametr wejściowy funkcji</font>
 5.  <font color="#00b050">Zrób powyższe dwa zadania wykorzystując pakiet wyrażeń regularnych</font> *(Zadanie 4 w tym samym pliku co zadanie 3.)*
 6.  <font color="#00b050">Napisz skrypt sortujący liczby (dwoma wybranymi metodami). Wygeneruj losowo _N_ liczb - wykorzystaj standardową funkcję do losowania. Z wbudowanej funkcji sortującej korzystaj tylko w celu weryfikacji wyników.</font>
-7.  Zaimplementuj klasę, która będzie realizowała strukturę drzewa (powinna posiadać funkcję przechodzenia wszystkich węzłów drzewa, węzły powinny mieć możliwość przechowywania wartości, krawędzie także mogą zawierać wartości lub być oznaczone), klasa powinna mieć zdefiniowaną funkcję __str__
+7.  <font color="#00b050">Zaimplementuj klasę, która będzie realizowała strukturę drzewa (powinna posiadać funkcję przechodzenia wszystkich węzłów drzewa, węzły powinny mieć możliwość przechowywania wartości, krawędzie także mogą zawierać wartości lub być oznaczone), klasa powinna mieć zdefiniowaną funkcję __str__</font>
 8. Napisz unit testy (z użyciem pakietu unittest) testujące podstawową funkcjonalność klasy
 # Lab 2
 1.  <font color="#00b050">Stwórz klasę implementującą liczby zespolone oraz przeciąż dla niej operatory dodawania i odejmowania.</font>
