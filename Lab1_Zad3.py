@@ -1,8 +1,9 @@
+# Stanisław Kusiak
+
+# postal code regex:    ([0-9]{2}-[0-9]{3}
 
 import re
 import os
-
-# postal code regex:    ([0-9]{2}-[0-9]{3})
 
 def delexp(text, word):
     return re.sub(word, "", text)
