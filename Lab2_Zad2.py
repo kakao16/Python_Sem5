@@ -1,3 +1,4 @@
+# Stanisław Kusiak
 
 import multiprocessing
 
