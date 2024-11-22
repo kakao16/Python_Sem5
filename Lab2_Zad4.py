@@ -1,4 +1,4 @@
-
+# Stanisław Kusiak
 
 class Fibonacci:
     current, next = 0, 1
