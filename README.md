@@ -15,8 +15,8 @@
 # Lab 3
 1. <font color="#00b050">Napisac program realizujacy mnozenie macierzy (gdzie macierze sa reprezentowane przez listy)  </font>
 2. <font color="#00b050">Napisac prosta klase przechowujaca np. dane osobowe (imie, nazwisko, adres zamieszkania, kod pocztowy, pesel) i metode zapisujaca obiekty typu tej klasy do json, oraz metode odczytuja json'a i ladujace dane do klasy</font>  
-3. Napisac algorytm Dijkstry (przechodzenie najkrotszej sciezki w grafie)  
-4. Zaimplementowac algorytm Aho-Corasick  
-5. Napisac obiektowo program, ktory realizuje automat stanow (np. Mealy'ego albo Moore'a), czyli nalezy stworzyc odpowiednie klasy z funkcjami, a nastepnie z nich utworzyc konkretna przykladowe instancje  
-6. Napisać obiektowo prosty dekorator na funkcji wypisującej jakiś string, a celem dekoratora jest zamiana liter w napisie na duże litery  
-7. Stworzyć dataclass w zadaniu 2
+3. <font color="#00b050">Napisac algorytm Dijkstry (przechodzenie najkrotszej sciezki w grafie)  </font>
+4. <font color="#00b050">Zaimplementowac algorytm Aho-Corasick  </font>
+5. <font color="#00b050">Napisac obiektowo program, ktory realizuje automat stanow (np. Mealy'ego albo Moore'a), czyli nalezy stworzyc odpowiednie klasy z funkcjami, a nastepnie z nich utworzyc konkretna przykladowe instancje</font>  
+6. <font color="#00b050">Napisać obiektowo prosty dekorator na funkcji wypisującej jakiś string, a celem dekoratora jest zamiana liter w napisie na duże litery  </font>
+7. <font color="#00b050">Stworzyć dataclass w zadaniu 2</font> *(Zadanie 7 w tym samym pliku co zadanie 2.)*

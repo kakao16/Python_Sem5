@@ -1,7 +1,8 @@
 # Stanisław Kusiak
 
 import json
-import os
+
+from dataclasses import dataclass
 
 class Person:
     def __init__(self, first_name, second_name, phone_number):
@@ -28,9 +29,20 @@ class Person:
             self.second_name = json_obj['second_name']
             self.phone_number = json_obj['phone_number']
 
+@dataclass
+class DataClassPerson:
+    first_name: str
+    second_name: str
+    phone_number: str
+
+# Regular Person class test
 p1 = Person("Jan", "Kowalski", 123456789)
 p1.save_to_json()
 
 p2 = Person("a", "b", "0")
 p2.read_from_json()
 print(p2.first_name, p2.second_name, p2.phone_number)
+
+# Person Data Class test
+p1_data = DataClassPerson("Jan", "Kowalski", 123456789)
+print(f"DataClass repr operator: {p1_data}")
